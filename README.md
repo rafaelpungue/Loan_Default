@@ -18,7 +18,7 @@ The project focuses on building reliable classification models while avoiding **
 ##  Data Preprocessing
 - Separated features (`X`) and target (`y`)
 - Used **stratified train-test split** to preserve class distribution
-- Applied feature scaling where required (e.g., for KNN)
+- Applied feature scaling where required 
 
 ```python
 X_train, X_test, y_train, y_test = train_test_split(
